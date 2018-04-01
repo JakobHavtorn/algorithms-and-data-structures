@@ -6,8 +6,8 @@ class Stack(object):
             max_size (int): The maximum size of the stack.
         """
         assert type(max_size) is int and max_size >= 0, '`max_size` must be 0 or large but was {}'.format(max_size)
-        self._top = -1
         self._max_size = max_size
+        self._top = -1
         self._stack = [None] * self._max_size
 
     def is_full(self):
@@ -16,7 +16,7 @@ class Stack(object):
         Returns:
             bool: Whether or not the stack is full.
         """
-        return self._max_size - 1 == self._top
+        return self._top == self._max_size - 1
 
     def is_empty(self):
         """Checks if the stack is empty.
