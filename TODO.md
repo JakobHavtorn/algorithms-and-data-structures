@@ -2,16 +2,18 @@
 
 https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_algorithm.htm
 
-## Queue
-- enqueue
-- dequeue
-- peek
-- is_full
-- is_empty
 
 ## Stack
 - pop
 - push
+- peek
+- is_full
+- is_empty
+
+
+## Queue
+- enqueue
+- dequeue
 - peek
 - is_full
 - is_empty
