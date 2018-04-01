@@ -2,8 +2,10 @@ class Stack(object):
     def __init__(self, max_size):
         """Initializes a Stack with a specified maximum size.
 
+        A Stack incorporates the LIFO (Last In First Out) principle.
+
         Args:
-            max_size (int): The maximum size of the stack.
+            max_size (int): The maximum size of the Stack.
         """
         assert type(max_size) is int and max_size >= 0, '`max_size` must be 0 or large but was {}'.format(max_size)
         self._max_size = max_size

@@ -1,5 +1,12 @@
 class Queue(object):
     def __init__(self, max_size):
+        """Initializes a Queue with a specified maximum size.
+
+        The Queue incorporates the FIFO (First In First Out) principle.
+        
+        Args:
+            max_size (int): The maximum size of the Queue.
+        """
         assert type(max_size) is int and max_size >= 0, '`max_size` must be 0 or large but was {}'.format(max_size)
         self._max_size = max_size
         self._front = 0         # Front pointer (front most element index)
