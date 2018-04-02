@@ -1,7 +1,11 @@
 # Data structures
-
+- Stack
+- Queue
+- Graph
+- Binary search tree
+- Maxheap
+- Circular buffer
 https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_algorithm.htm
-
 
 ## Stack
 - pop
@@ -9,7 +13,6 @@ https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_alg
 - peek
 - is_full
 - is_empty
-
 
 ## Queue
 - enqueue
@@ -64,6 +67,6 @@ https://www.tutorialspoint.com/data_structures_algorithms/doubly_linked_list_alg
 - remove
 - size
 
-CircularBuffer with Numpy
+### CircularBuffer with Numpy
 - np.shift
 
