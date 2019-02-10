@@ -16,4 +16,4 @@ The data structures currently implemented are
 - Queue
 - Stack
 
-Data structures to implement can be found in TODO.txt
+Data structures to implement can be found in TODO.md
